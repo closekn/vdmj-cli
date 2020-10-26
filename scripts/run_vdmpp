@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Please take one argument, a VDM++ file."
+  exit 1
+fi
+
+java -jar /usr/local/bin/vdmj.jar -vdmpp -i $1
