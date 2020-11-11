@@ -2,7 +2,7 @@ FROM alpine:3.10
 
 ARG VDMJ_VERSION="4.3.0"
 ARG VDMJ_TAG="${VDMJ_VERSION}-1"
-ARG UPDATE_DAY="201023"
+ARG UPDATE_DAY="201109"
 
 RUN apk update \
   && apk --no-cache add \
